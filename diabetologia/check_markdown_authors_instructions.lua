@@ -13,7 +13,7 @@ function check_keywords(keywords)
 	  -- check if they are alphabetical ordered
 	  in_order = true
 	  curr_letter = 'a'
-	  for c in (','..kwds):gmatch('[,^]%S') do
+	  for c in (','..kwds):gmatch(',%S') do
 		  next_letter = c:sub(2,2)
                   if curr_letter > next_letter then
 			  in_order = false
