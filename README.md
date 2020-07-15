@@ -7,7 +7,7 @@ So far there are lua-filters for the following journals
 - Diabetes Care
 - Diabetologia
 
-The checks are not exhaustively yet, but are just meant to help make sure checks for requirements that are easy-to-automate are done every time you compile your rmarkdown document.
+The checks are not exhaustive yet, but are just meant to help make sure checks for requirements that are easy-to-automate are done every time you compile your rmarkdown document.
 
 ## Basic use
 
