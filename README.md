@@ -29,10 +29,10 @@ output:
         pandoc_args:
           - --lua-filter=check_markdown_authors_instructions.lua
 ---
-
+```
 Make sure it is the last filter in the `pandoc_args` list.
 
-```
+
 
 When you compile your rmarkdown document. For example by
 ```
